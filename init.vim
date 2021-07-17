@@ -3,12 +3,12 @@ set background=dark
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'morhetz/gruvbox'
+Plug 'tomasiser/vim-code-dark'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
 
 syntax enable
-colorscheme gruvbox
-let g:airline_theme='gruvbox'
+colorscheme codedark
+let g:airline_theme='codedark'
